@@ -1,12 +1,13 @@
 import React from 'react'
 import {
   FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs,
-  FaPython, FaDatabase, FaDocker, FaGit, FaFigma
+  FaPython, FaDatabase, FaDocker, FaGit, FaFigma,
+  FaAmazon
 } from 'react-icons/fa'
 
-import { FaAmazon } from 'react-icons/fa'
 import { FaUpwork } from 'react-icons/fa6'
-import { SiAccenture } from 'react-icons/si'
+import { SiAccenture, SiNextdotjs } from 'react-icons/si'
+import { FiExternalLink } from 'react-icons/fi'
 
 const Experience = () => {
   const skills = [
@@ -83,6 +84,43 @@ const Experience = () => {
 
         {/* ================= RIGHT: EXPERIENCE ================= */}
         <div className='md:w-3/5 space-y-8'>
+
+                  {/* ASHRIX */}
+          <div className='bg-zinc-900 p-6 rounded-2xl hover:bg-zinc-800 transition'>
+
+            <div className='flex items-center gap-3'>
+              <SiNextdotjs size={25} className='text-white' />
+              <div>
+                <h2 className='text-xl font-semibold'>
+                  Founder & Software Solutions Developer — ASHRIX
+                </h2>
+                <p className='text-gray-400 text-sm'>
+                  Founder · Software Services
+                </p>
+              </div>
+            </div>
+
+            <p className='text-gray-400 mt-3'>
+              Building ASHRIX · 2026 – Present
+            </p>
+
+            <ul className='text-gray-300 mt-3 list-disc ml-5 space-y-2'>
+              <li>Building a software solutions business focused on helping organizations, startups, and businesses address their needs through practical digital solutions.</li>
+              <li>Developing the ASHRIX website and establishing its digital presence, service positioning, and client inquiry workflow.</li>
+              <li>Applying modern web development practices to build responsive, user-focused digital experiences.</li>
+              <li>Exploring business requirements and translating them into clear software solution opportunities.</li>
+            </ul>
+
+            <a
+              href='https://theashrix.com'
+              target='_blank'
+              rel='noreferrer'
+              className='inline-flex items-center gap-2 mt-5 text-sm text-cyan-400 hover:text-cyan-300 transition'
+            >
+              Visit ASHRIX <FiExternalLink />
+            </a>
+
+          </div>
 
           {/* UPWORK */}
           <div className='bg-zinc-900 p-6 rounded-2xl hover:bg-zinc-800 transition'>
