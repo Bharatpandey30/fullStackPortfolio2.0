@@ -5,9 +5,9 @@ import { FiExternalLink } from 'react-icons/fi'
 const Projects = () => {
   const projectData = [
     {
-    title: "Social Blogging Platform (Full Stack)",
+    title: "Stock Trading Platform(Full Stack)",
     type: "Full Stack",
-    desc: "Built a full-stack social blogging platform inspired by Instagram/Facebook where users can create posts, follow other users, and view personalized feeds based on their network. Includes authentication, user profiles, real-time feed updates, and secure REST APIs.",
+   desc: "Built a full-stack stock trading platform that simulates real-time trading with virtual funds. Users can view live market data, execute buy/sell orders, track portfolio performance, and analyze profit/loss over time. Includes authentication, transaction history, and secure REST APIs for trading operations.",
     tech: ["React", "Node.js", "Express", "MongoDB", "JWT Auth", "Tailwind"],
     github: "#",
     live: "#"

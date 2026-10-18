@@ -113,7 +113,7 @@ const Experience = () => {
             <div className='flex items-center gap-3'>
               <SiAccenture size={25} color="#a100ff" />
               <h2 className='text-xl font-semibold'>
-                AI Enterprise Analyst — Accenture
+                Software Engineer — Accenture
               </h2>
             </div>
 
@@ -136,7 +136,7 @@ const Experience = () => {
             <div className='flex items-center gap-3'>
               <FaAmazon size={25} color="#FF9900" />
               <h2 className='text-xl font-semibold'>
-                SDE – Quality Engineer — Amazon
+                SDE – Quality — Amazon
               </h2>
             </div>
 
