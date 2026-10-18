@@ -18,6 +18,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: bharatPandeyPortfolio2.0
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -27,6 +30,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
+          cache-dependency-path: bharatPandeyPortfolio2.0/package-lock.json
 
       - name: Install dependencies
         run: npm ci
@@ -40,7 +44,7 @@ jobs:
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: bharatPandeyPortfolio2.0/dist
 
   deploy:
     environment:
